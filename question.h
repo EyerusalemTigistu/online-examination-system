@@ -5,5 +5,6 @@ struct question {
 	char options[4][150];
 	char correct_option;
 } ;
- void display_quesion(question q) ;
+ void display_question(question q) ;
+ void saved_question(question bank[]) ;
  #endif 
