@@ -12,7 +12,6 @@ void addStudent(Student students[], int& count, int id, const string& name, int 
     students[count].id = id;
     students[count].name = name;
     students[count].score = score;
-
     count++;
 }
 

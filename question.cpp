@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include "question.h" 
+
 using namespace std ;
 void display_question(question q){
 	cout<<endl ;
@@ -42,9 +43,9 @@ void saved_question(question bank[]){
 	bank[3].correct_option='D' ;
 	//question 5 
 	strcpy(bank[4].text,"5.chemistry question: Which element of the periodic table is the most reactive?");
-    strcpy(bank[4].options[0],"Carbon");
-    strcpy(bank[4].options[1],"Flourine");
-    strcpy(bank[4].options[2],"Francium");
-    strcpy(bank[4].options[3],"Oxygen");
-    bank[4].correct_option='B' ;
+    	strcpy(bank[4].options[0],"Carbon");
+    	strcpy(bank[4].options[1],"Flourine");
+    	strcpy(bank[4].options[2],"Francium");
+    	strcpy(bank[4].options[3],"Oxygen");
+    	bank[4].correct_option='B' ;
 }

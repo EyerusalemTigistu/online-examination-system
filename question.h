@@ -1,5 +1,6 @@
 #ifndef QUESTION_H
 #define QUESTION_H
+
 struct question {
 	char text[350];
 	char options[4][150];
