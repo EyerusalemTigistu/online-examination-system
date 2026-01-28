@@ -11,8 +11,7 @@ int startExam(question bank[], int numQuestions, Student& student) {
         display_question(bank[i]);
         
         char ans;
-        cout << "Your answer (A/B/C/D): ";
-        cin >> ans;
+             cin >> ans;
         
         // yeah yeah I know should handle lowercase too but whatever
         if (ans == bank[i].correct_option || ans + 32 == bank[i].correct_option) {
