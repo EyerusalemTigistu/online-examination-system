@@ -29,9 +29,13 @@ and that caluate thier score
   _ it will show total result after the exam end
 
   how the program work:-
+  
    -the program load 5 questions in to the array
+   
    -after each student enter ID and name it will display the question with 4 option in it
+   
    _the program will count the correct answer and display the correct  the result at the end
+   
 
    we use:- structure,array,loops,function, differnt header files,files
 
