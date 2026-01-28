@@ -19,9 +19,13 @@ and that caluate thier score
 
   
   _storing exam question and also option
+  
   _allow student to enter id and name
+  
   _it will check the answers that is provided by student
+  
   _final score is displayed
+  
   _ it will show total result after the exam end
 
   how the program work:-
