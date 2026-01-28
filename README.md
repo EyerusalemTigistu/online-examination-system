@@ -16,6 +16,8 @@ our project is to create online examnation  which is written in cpp  it allow to
 and that caluate thier score
 
   what our project mainly do
+
+  
   _storing exam question and also option
   _allow student to enter id and name
   _it will check the answers that is provided by student
