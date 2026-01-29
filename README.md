@@ -10,6 +10,7 @@ group members
 5.Kidus Kidanewold………………………..RDCS-016-25B 
 6.Kolal Sisay………………………………. RDCS-155-24B  
 7.Lewi Teshome…………………………….RDCS-006-25A
+8.Fethi Tadele ...........RDCS-171-24B
 
 
 our project is to create online examnation  which is written in cpp  it allow to answer multiple  questions
