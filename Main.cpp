@@ -2,6 +2,7 @@
 #include "question.h"
 #include "Exam.h"
 #include "Student.h"
+#include"SaveResult.h"
 
 using namespace std;
 
@@ -28,9 +29,12 @@ int main() {
     cout << "Student ID: " << s.id << endl;
     cout << "Final Score: " << s.score << " / 5" << endl;
 
-    cout << endl << "Press any key to exit...";
+    saveResultToFile(s);
+
+    cout << endl << "Press any key to exit";
     cin.ignore();
     cin.get(); 
+
 
     return 0;
 }
